@@ -1,0 +1,221 @@
+ body{
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+}
+
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #a200ff;
+    padding: .5rem;
+   
+}
+#button{
+    
+    background-color: rgb(105, 12, 160);
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 27px;   
+}
+.link{
+    padding: 10%;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.link:hover{
+    color: black;
+    } 
+
+    .HomeImage{
+        display: block;
+        margin: 0px auto;
+    } 
+    .TitleImage{
+    
+        text-shadow: 0px 1px 2px #eee;     
+        color: white;    
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+    } 
+
+    .front {
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    zoom:"reset";
+        
+    }
+
+    span::before {
+        content: "Create";
+        animation: animate infinite 4s;
+        padding-left: 10px;
+    }
+
+    @keyframes animate {
+
+        25% {
+            content: "Create";
+            color: darkmagenta;
+        }
+
+        50% {
+            content: "Design";
+            color: rgb(255, 27, 236);
+            
+            
+        }
+
+        100% {
+            content: "Dream";
+            color: rgb(255, 0, 0);
+        }
+    }
+    .movingtext1{
+        width: 50px;
+        height: 30px;
+        background: red;
+        position: relative;
+        animation: mymove1 4s infinite;
+      }
+      .movingtext1:hover{
+        animation-play-state: paused;
+      }
+      @keyframes mymove1 {
+        0%   {top: 300px; left: 300px; background: red;}
+        10%  {top: 200px; left: 600px; background: rgb(255, 0, 234);}
+        25%  {top: 300px; left: 100px; background: blue;}
+        50%  {top: 100px; left: 100px; background: yellow;}
+        75%  {top: 800px; left: 0px; background: green;}
+        100% {top: 300px; left: 300px; background: red;}
+      }    
+        
+      #demobox {
+        background-color: rgb(0, 0, 0) ;
+        padding: 50px ;
+        border: 5px solid  rgb(32, 32, 32) ;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        display: flex;
+        /* justify-content: space-between */
+        
+      }
+      #demobox2 {
+        background-color: rgb(0, 0, 0) ;
+        padding: 50px ;
+        display: flex;
+           
+      }
+      #demobox3 {
+        background-color: rgb(0, 0, 0) ;
+        padding: 0px ;
+        display: flex;
+        
+           
+      }
+    
+    .image2 img{
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        
+        
+       
+    }
+    .header1 {
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        background-color: #5f5a5a;
+        padding: .5rem;
+       
+    }
+    #button1{
+        
+        background-color: rgb(105, 12, 160);
+        text-decoration: none;
+        padding: 4px 8px;
+        border-radius: 5px;   
+    }
+    
+    .link1{
+        justify-content: space-between;
+        padding: 0%;
+        background: none;
+        border: none;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    .link1:hover{
+        color: black;
+        } 
+
+    .scrollToTop {
+        position: relative;
+        float: right;
+        top:-50px;
+                } 
+    
+    .Aboutpage1{
+        position: relative;
+        top:-40px;
+        border: 2px solid  rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+    }
+    .Cover1{
+        background-color: rgb(255, 255, 255);
+        width: 1000px;
+        height: 500px;
+        display: block;
+        margin: 70px auto;
+        
+        
+    }
+    .Cover2{
+        background-color: rgb(0, 0, 0);
+        border: 3px solid  rgb(255, 255, 255);
+        width:99%;
+        height: 99%;
+        /* border: 2px solid  rgb(255, 255, 255);
+        display: block;
+         margin: 70px auto; */
+        
+       
+    }
+    .Cover3{
+       display: flex;
+        /* transform: translateY(10px); */
+       
+    }
+    .Cover5{
+        display: flex;
+    }  
+    .Cover6{
+        display: flex;
+    }  
+
+    .movingtext2{
+        width: 50px;
+        height: 30px;
+        margin: 70px auto;
+        background: red;
+        position: relative;
+        animation: mymove2 1s infinite;
+      }
+      .movingtext2:hover{
+        animation-play-state: paused;
+      }
+      @keyframes mymove2 {
+        100%  {transform: translate(0px, 0px) rotate(360deg); background: rgb(68, 0, 255);}
+        
+       
+      }    
+        
